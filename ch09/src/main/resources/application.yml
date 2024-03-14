@@ -25,6 +25,7 @@ spring:
     devtools:
         livereload:
             enabled: true
+
     jpa:
         database: mysql
         hibernate:

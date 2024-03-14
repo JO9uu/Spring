@@ -20,5 +20,14 @@ public class MainController {
             return "/user1/list";
     }
 
+    @GetMapping("/user1/modify")
+    public String user1modify(){
+        return "/user1/modify";
+    }
+
+    @GetMapping("/user1/register")
+    public String user1register(){
+        return "/user1/register";
+    }
 
 }
