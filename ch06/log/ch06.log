@@ -1,0 +1,815 @@
+2024-03-11T15:19:09.119+09:00  INFO 4992 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 4992 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T15:19:09.120+09:00  INFO 4992 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T15:19:09.254+09:00  INFO 4992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-11T15:19:09.254+09:00  INFO 4992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-11T15:19:09.774+09:00  INFO 4992 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T15:19:09.782+09:00  INFO 4992 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T15:19:09.782+09:00  INFO 4992 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T15:19:09.808+09:00  INFO 4992 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T15:19:09.809+09:00  INFO 4992 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 554 ms
+2024-03-11T15:19:09.858+09:00  INFO 4992 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T15:19:10.106+09:00  INFO 4992 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T15:19:10.128+09:00  INFO 4992 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T15:19:10.133+09:00  INFO 4992 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.206 seconds (process running for 1.503)
+2024-03-11T15:20:22.331+09:00  INFO 748 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 748 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T15:20:22.332+09:00  INFO 748 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T15:20:22.456+09:00  INFO 748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-11T15:20:22.456+09:00  INFO 748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-11T15:20:22.964+09:00  INFO 748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T15:20:22.969+09:00  INFO 748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T15:20:22.969+09:00  INFO 748 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T15:20:22.990+09:00  INFO 748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T15:20:22.991+09:00  INFO 748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 535 ms
+2024-03-11T15:20:23.034+09:00  INFO 748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T15:20:23.276+09:00  INFO 748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T15:20:23.299+09:00  INFO 748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T15:20:23.304+09:00  INFO 748 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.167 seconds (process running for 1.413)
+2024-03-11T15:46:36.897+09:00  INFO 11300 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 11300 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T15:46:36.898+09:00  INFO 11300 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T15:46:37.057+09:00  INFO 11300 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-11T15:46:37.057+09:00  INFO 11300 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-11T15:46:37.568+09:00  INFO 11300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T15:46:37.574+09:00  INFO 11300 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T15:46:37.574+09:00  INFO 11300 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T15:46:37.598+09:00  INFO 11300 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T15:46:37.598+09:00  INFO 11300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 541 ms
+2024-03-11T15:46:37.647+09:00  INFO 11300 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T15:46:37.885+09:00  INFO 11300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T15:46:37.912+09:00  INFO 11300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T15:46:37.917+09:00  INFO 11300 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.216 seconds (process running for 1.514)
+2024-03-11T15:49:11.087+09:00  INFO 11300 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 15 class path changes (0 additions, 0 deletions, 15 modifications)
+2024-03-11T15:49:11.142+09:00  INFO 11300 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 11300 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T15:49:11.143+09:00  INFO 11300 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T15:49:11.256+09:00  INFO 11300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T15:49:11.257+09:00  INFO 11300 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T15:49:11.257+09:00  INFO 11300 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T15:49:11.264+09:00  INFO 11300 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T15:49:11.264+09:00  INFO 11300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 120 ms
+2024-03-11T15:49:11.277+09:00  INFO 11300 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T15:49:11.317+09:00  INFO 11300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T15:49:11.323+09:00  INFO 11300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T15:49:11.325+09:00  INFO 11300 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.196 seconds (process running for 154.922)
+2024-03-11T15:49:11.326+09:00  INFO 11300 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-11T15:49:58.589+09:00  INFO 11300 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 15 class path changes (0 additions, 0 deletions, 15 modifications)
+2024-03-11T15:49:58.637+09:00  INFO 11300 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 11300 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T15:49:58.637+09:00  INFO 11300 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T15:49:58.733+09:00  INFO 11300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T15:49:58.733+09:00  INFO 11300 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T15:49:58.733+09:00  INFO 11300 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T15:49:58.739+09:00  INFO 11300 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T15:49:58.739+09:00  INFO 11300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 101 ms
+2024-03-11T15:49:58.749+09:00  INFO 11300 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T15:49:58.784+09:00  INFO 11300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T15:49:58.788+09:00  INFO 11300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T15:49:58.790+09:00  INFO 11300 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.163 seconds (process running for 202.387)
+2024-03-11T15:49:58.791+09:00  INFO 11300 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-11T15:51:47.059+09:00  INFO 11300 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 15 class path changes (0 additions, 0 deletions, 15 modifications)
+2024-03-11T15:51:47.097+09:00  INFO 11300 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 11300 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T15:51:47.097+09:00  INFO 11300 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T15:51:47.192+09:00  INFO 11300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T15:51:47.192+09:00  INFO 11300 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T15:51:47.192+09:00  INFO 11300 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T15:51:47.198+09:00  INFO 11300 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T15:51:47.198+09:00  INFO 11300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 100 ms
+2024-03-11T15:51:47.206+09:00  INFO 11300 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T15:51:47.240+09:00  INFO 11300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T15:51:47.247+09:00  INFO 11300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T15:51:47.249+09:00  INFO 11300 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.163 seconds (process running for 310.846)
+2024-03-11T15:51:47.249+09:00  INFO 11300 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-11T15:52:00.942+09:00  INFO 16244 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 16244 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T15:52:00.943+09:00  INFO 16244 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T15:52:01.060+09:00  INFO 16244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-11T15:52:01.060+09:00  INFO 16244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-11T15:52:01.592+09:00  INFO 16244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T15:52:01.598+09:00  INFO 16244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T15:52:01.598+09:00  INFO 16244 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T15:52:01.622+09:00  INFO 16244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T15:52:01.622+09:00  INFO 16244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 562 ms
+2024-03-11T15:52:01.674+09:00  INFO 16244 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T15:52:01.919+09:00  INFO 16244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T15:52:01.941+09:00  INFO 16244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T15:52:01.947+09:00  INFO 16244 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.189 seconds (process running for 1.436)
+2024-03-11T15:52:13.610+09:00  INFO 16244 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-11T15:52:13.610+09:00  INFO 16244 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-11T15:52:13.610+09:00  INFO 16244 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-11T15:52:13.765+09:00 ERROR 16244 --- [http-nio-8080-exec-2] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-2] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "user1.name=='홍길동'" (template: "index" - line 27, col 15)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "user1.name=='홍길동'" (template: "index" - line 27, col 15)
+	at org.thymeleaf.spring6.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:292) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.processor.StandardIfTagProcessor.isVisible(StandardIfTagProcessor.java:59) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardConditionalVisibilityTagProcessor.doProcess(AbstractStandardConditionalVisibilityTagProcessor.java:61) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	... 50 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'name' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:224) ~[spring-expression-6.1.4.jar:6.1.4]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:111) ~[spring-expression-6.1.4.jar:6.1.4]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorValueRef.getValue(PropertyOrFieldReference.java:416) ~[spring-expression-6.1.4.jar:6.1.4]
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:98) ~[spring-expression-6.1.4.jar:6.1.4]
+	at org.springframework.expression.spel.ast.OpEQ.getValueInternal(OpEQ.java:42) ~[spring-expression-6.1.4.jar:6.1.4]
+	at org.springframework.expression.spel.ast.OpEQ.getValueInternal(OpEQ.java:32) ~[spring-expression-6.1.4.jar:6.1.4]
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:114) ~[spring-expression-6.1.4.jar:6.1.4]
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:338) ~[spring-expression-6.1.4.jar:6.1.4]
+	at org.thymeleaf.spring6.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	... 71 common frames omitted
+
+2024-03-11T15:52:13.770+09:00 ERROR 16244 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/ch06] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'name' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:224) ~[spring-expression-6.1.4.jar:6.1.4]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:111) ~[spring-expression-6.1.4.jar:6.1.4]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorValueRef.getValue(PropertyOrFieldReference.java:416) ~[spring-expression-6.1.4.jar:6.1.4]
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:98) ~[spring-expression-6.1.4.jar:6.1.4]
+	at org.springframework.expression.spel.ast.OpEQ.getValueInternal(OpEQ.java:42) ~[spring-expression-6.1.4.jar:6.1.4]
+	at org.springframework.expression.spel.ast.OpEQ.getValueInternal(OpEQ.java:32) ~[spring-expression-6.1.4.jar:6.1.4]
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:114) ~[spring-expression-6.1.4.jar:6.1.4]
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:338) ~[spring-expression-6.1.4.jar:6.1.4]
+	at org.thymeleaf.spring6.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.processor.StandardIfTagProcessor.isVisible(StandardIfTagProcessor.java:59) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardConditionalVisibilityTagProcessor.doProcess(AbstractStandardConditionalVisibilityTagProcessor.java:61) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2024-03-11T15:53:46.556+09:00  INFO 10996 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 10996 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T15:53:46.557+09:00  INFO 10996 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T15:53:46.718+09:00  INFO 10996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-11T15:53:46.718+09:00  INFO 10996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-11T15:53:47.231+09:00  INFO 10996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T15:53:47.238+09:00  INFO 10996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T15:53:47.238+09:00  INFO 10996 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T15:53:47.262+09:00  INFO 10996 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T15:53:47.262+09:00  INFO 10996 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 543 ms
+2024-03-11T15:53:47.312+09:00  INFO 10996 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T15:53:47.554+09:00  INFO 10996 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T15:53:47.576+09:00  INFO 10996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T15:53:47.582+09:00  INFO 10996 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.225 seconds (process running for 1.507)
+2024-03-11T15:54:18.529+09:00  INFO 10996 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 15 class path changes (0 additions, 0 deletions, 15 modifications)
+2024-03-11T15:54:18.586+09:00  INFO 10996 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 10996 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T15:54:18.587+09:00  INFO 10996 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T15:54:18.699+09:00  INFO 10996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T15:54:18.699+09:00  INFO 10996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T15:54:18.699+09:00  INFO 10996 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T15:54:18.705+09:00  INFO 10996 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T15:54:18.705+09:00  INFO 10996 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 117 ms
+2024-03-11T15:54:18.719+09:00  INFO 10996 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T15:54:18.761+09:00  INFO 10996 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T15:54:18.767+09:00  INFO 10996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T15:54:18.769+09:00  INFO 10996 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.195 seconds (process running for 32.694)
+2024-03-11T15:54:18.770+09:00  INFO 10996 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-11T16:11:00.713+09:00  INFO 10996 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-11T16:11:00.754+09:00  INFO 10996 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 10996 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T16:11:00.754+09:00  INFO 10996 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T16:11:00.864+09:00  INFO 10996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T16:11:00.864+09:00  INFO 10996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T16:11:00.864+09:00  INFO 10996 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T16:11:00.869+09:00  INFO 10996 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T16:11:00.870+09:00  INFO 10996 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 113 ms
+2024-03-11T16:11:00.881+09:00  INFO 10996 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T16:11:00.934+09:00  INFO 10996 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T16:11:00.939+09:00  INFO 10996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T16:11:00.941+09:00  INFO 10996 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.198 seconds (process running for 1034.866)
+2024-03-11T16:11:00.941+09:00  INFO 10996 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-11T16:24:27.464+09:00  INFO 10996 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-11T16:24:27.513+09:00  INFO 10996 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 10996 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T16:24:27.513+09:00  INFO 10996 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T16:24:27.625+09:00  INFO 10996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T16:24:27.626+09:00  INFO 10996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T16:24:27.626+09:00  INFO 10996 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T16:24:27.632+09:00  INFO 10996 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T16:24:27.632+09:00  INFO 10996 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 113 ms
+2024-03-11T16:24:27.644+09:00  INFO 10996 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T16:24:27.698+09:00  INFO 10996 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T16:24:27.704+09:00  INFO 10996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T16:24:27.706+09:00  INFO 10996 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.208 seconds (process running for 1841.631)
+2024-03-11T16:24:27.706+09:00  INFO 10996 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-11T16:25:07.738+09:00  INFO 808 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 808 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T16:25:07.739+09:00  INFO 808 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T16:25:07.845+09:00  INFO 808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-11T16:25:07.845+09:00  INFO 808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-11T16:25:08.357+09:00  INFO 808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T16:25:08.362+09:00  INFO 808 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T16:25:08.362+09:00  INFO 808 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T16:25:08.384+09:00  INFO 808 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T16:25:08.384+09:00  INFO 808 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 539 ms
+2024-03-11T16:25:08.429+09:00  INFO 808 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T16:25:08.665+09:00  INFO 808 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T16:25:08.687+09:00  INFO 808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T16:25:08.692+09:00  INFO 808 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.138 seconds (process running for 1.386)
+2024-03-11T16:31:47.803+09:00  INFO 808 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 15 class path changes (0 additions, 0 deletions, 15 modifications)
+2024-03-11T16:31:47.851+09:00  INFO 808 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 808 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T16:31:47.852+09:00  INFO 808 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T16:31:47.975+09:00  INFO 808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T16:31:47.976+09:00  INFO 808 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T16:31:47.976+09:00  INFO 808 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T16:31:47.982+09:00  INFO 808 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T16:31:47.983+09:00  INFO 808 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 130 ms
+2024-03-11T16:31:47.995+09:00  INFO 808 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T16:31:48.039+09:00  INFO 808 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T16:31:48.045+09:00  INFO 808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T16:31:48.047+09:00  INFO 808 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.211 seconds (process running for 400.741)
+2024-03-11T16:31:48.048+09:00  INFO 808 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-11T16:34:15.968+09:00  INFO 808 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 15 class path changes (0 additions, 0 deletions, 15 modifications)
+2024-03-11T16:34:16.014+09:00  INFO 808 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 808 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T16:34:16.015+09:00  INFO 808 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T16:34:16.132+09:00  INFO 808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T16:34:16.132+09:00  INFO 808 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T16:34:16.132+09:00  INFO 808 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T16:34:16.138+09:00  INFO 808 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T16:34:16.138+09:00  INFO 808 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 122 ms
+2024-03-11T16:34:16.151+09:00  INFO 808 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T16:34:16.192+09:00  INFO 808 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T16:34:16.197+09:00  INFO 808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T16:34:16.199+09:00  INFO 808 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.198 seconds (process running for 548.893)
+2024-03-11T16:34:16.200+09:00  INFO 808 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-11T16:34:28.866+09:00  INFO 808 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 15 class path changes (0 additions, 0 deletions, 15 modifications)
+2024-03-11T16:34:28.915+09:00  INFO 808 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 808 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T16:34:28.915+09:00  INFO 808 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T16:34:29.009+09:00  INFO 808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T16:34:29.009+09:00  INFO 808 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T16:34:29.009+09:00  INFO 808 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T16:34:29.022+09:00  INFO 808 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T16:34:29.022+09:00  INFO 808 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 107 ms
+2024-03-11T16:34:29.032+09:00  INFO 808 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T16:34:29.067+09:00  INFO 808 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T16:34:29.073+09:00  INFO 808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T16:34:29.075+09:00  INFO 808 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.17 seconds (process running for 561.769)
+2024-03-11T16:34:29.076+09:00  INFO 808 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-11T16:34:36.710+09:00  INFO 4292 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 4292 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T16:34:36.711+09:00  INFO 4292 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T16:34:36.828+09:00  INFO 4292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-11T16:34:36.828+09:00  INFO 4292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-11T16:34:37.450+09:00  INFO 4292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T16:34:37.457+09:00  INFO 4292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T16:34:37.457+09:00  INFO 4292 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T16:34:37.481+09:00  INFO 4292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T16:34:37.482+09:00  INFO 4292 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 653 ms
+2024-03-11T16:34:37.533+09:00  INFO 4292 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T16:34:37.769+09:00  INFO 4292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T16:34:37.790+09:00  INFO 4292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T16:34:37.794+09:00  INFO 4292 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.314 seconds (process running for 1.564)
+2024-03-11T16:34:54.119+09:00  INFO 4292 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-11T16:34:54.119+09:00  INFO 4292 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-11T16:34:54.120+09:00  INFO 4292 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-11T16:34:54.295+09:00  WARN 4292 --- [http-nio-8080-exec-2] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-2][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 59, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T16:34:54.297+09:00  WARN 4292 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 59, col 15. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T16:34:54.298+09:00  WARN 4292 --- [http-nio-8080-exec-2] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-2][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 60, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T16:34:54.298+09:00  WARN 4292 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 60, col 15. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T16:34:54.298+09:00  WARN 4292 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 62, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T16:34:54.299+09:00  WARN 4292 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 63, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T16:34:54.299+09:00  WARN 4292 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 65, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T16:34:54.299+09:00  WARN 4292 --- [http-nio-8080-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-2][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 66, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T16:34:54.299+09:00  WARN 4292 --- [http-nio-8080-exec-2] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-2][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 68, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T16:34:54.304+09:00  WARN 4292 --- [http-nio-8080-exec-2] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-2][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 69, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T16:35:02.879+09:00  WARN 4292 --- [http-nio-8080-exec-8] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-8][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 59, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T16:35:02.880+09:00  WARN 4292 --- [http-nio-8080-exec-8] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-8][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 59, col 15. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T16:35:02.880+09:00  WARN 4292 --- [http-nio-8080-exec-8] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-8][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 60, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T16:35:02.880+09:00  WARN 4292 --- [http-nio-8080-exec-8] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-8][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 60, col 15. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T16:35:02.881+09:00  WARN 4292 --- [http-nio-8080-exec-8] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-8][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 62, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T16:35:02.881+09:00  WARN 4292 --- [http-nio-8080-exec-8] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-8][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 63, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T16:35:02.881+09:00  WARN 4292 --- [http-nio-8080-exec-8] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-8][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 65, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T16:35:02.882+09:00  WARN 4292 --- [http-nio-8080-exec-8] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-8][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 66, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T16:35:02.882+09:00  WARN 4292 --- [http-nio-8080-exec-8] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-8][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 68, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T16:35:02.882+09:00  WARN 4292 --- [http-nio-8080-exec-8] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-8][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 69, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T16:35:17.000+09:00  WARN 4292 --- [http-nio-8080-exec-9] n.n.u.t.e.ExpressionProcessor            : Fragment expression "/layout/templateLayout1.html" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2024-03-11T16:35:19.502+09:00  WARN 4292 --- [http-nio-8080-exec-10] n.n.u.t.e.ExpressionProcessor            : Fragment expression "/layout/templateLayout2.html" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2024-03-11T16:40:01.652+09:00  INFO 6496 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 6496 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T16:40:01.653+09:00  INFO 6496 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T16:40:01.763+09:00  INFO 6496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-11T16:40:01.763+09:00  INFO 6496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-11T16:40:02.267+09:00  INFO 6496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T16:40:02.273+09:00  INFO 6496 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T16:40:02.273+09:00  INFO 6496 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T16:40:02.297+09:00  INFO 6496 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T16:40:02.297+09:00  INFO 6496 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 534 ms
+2024-03-11T16:40:02.346+09:00  INFO 6496 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T16:40:02.588+09:00  INFO 6496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T16:40:02.609+09:00  INFO 6496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T16:40:02.614+09:00  INFO 6496 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.153 seconds (process running for 1.41)
+2024-03-11T16:44:51.460+09:00  INFO 6496 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-11T16:44:51.513+09:00  INFO 6496 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 6496 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T16:44:51.513+09:00  INFO 6496 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T16:44:51.622+09:00  INFO 6496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T16:44:51.622+09:00  INFO 6496 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T16:44:51.622+09:00  INFO 6496 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T16:44:51.628+09:00  INFO 6496 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T16:44:51.628+09:00  INFO 6496 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 114 ms
+2024-03-11T16:44:51.641+09:00  INFO 6496 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T16:44:51.680+09:00  INFO 6496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T16:44:51.686+09:00  INFO 6496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T16:44:51.688+09:00  INFO 6496 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.188 seconds (process running for 290.484)
+2024-03-11T16:44:51.689+09:00  INFO 6496 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-11T16:45:07.432+09:00  INFO 6496 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-11T16:45:07.487+09:00  INFO 6496 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 6496 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T16:45:07.487+09:00  INFO 6496 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T16:45:07.585+09:00  INFO 6496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T16:45:07.585+09:00  INFO 6496 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T16:45:07.585+09:00  INFO 6496 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T16:45:07.592+09:00  INFO 6496 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T16:45:07.592+09:00  INFO 6496 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 104 ms
+2024-03-11T16:45:07.602+09:00  INFO 6496 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T16:45:07.647+09:00  INFO 6496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T16:45:07.653+09:00  INFO 6496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T16:45:07.656+09:00  INFO 6496 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.179 seconds (process running for 306.451)
+2024-03-11T16:45:07.656+09:00  INFO 6496 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-11T17:37:14.013+09:00  INFO 9544 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 9544 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T17:37:14.014+09:00  INFO 9544 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T17:37:14.127+09:00  INFO 9544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-11T17:37:14.127+09:00  INFO 9544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-11T17:37:14.631+09:00  INFO 9544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T17:37:14.636+09:00  INFO 9544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T17:37:14.636+09:00  INFO 9544 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T17:37:14.658+09:00  INFO 9544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T17:37:14.658+09:00  INFO 9544 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 531 ms
+2024-03-11T17:37:14.784+09:00  INFO 9544 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T17:37:14.958+09:00  INFO 9544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T17:37:14.974+09:00  INFO 9544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T17:37:14.979+09:00  INFO 9544 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.173 seconds (process running for 1.44)
+2024-03-11T17:37:17.832+09:00  INFO 9544 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-11T17:37:17.832+09:00  INFO 9544 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-11T17:37:17.833+09:00  INFO 9544 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-11T17:37:18.020+09:00  WARN 9544 --- [http-nio-8080-exec-1] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 59, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:18.021+09:00  WARN 9544 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 59, col 15. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:18.023+09:00  WARN 9544 --- [http-nio-8080-exec-1] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 60, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:18.023+09:00  WARN 9544 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 60, col 15. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:18.024+09:00  WARN 9544 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 62, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:18.025+09:00  WARN 9544 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 63, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:18.025+09:00  WARN 9544 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 65, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:18.026+09:00  WARN 9544 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 66, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:18.026+09:00  WARN 9544 --- [http-nio-8080-exec-1] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 68, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:18.032+09:00  WARN 9544 --- [http-nio-8080-exec-1] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 69, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:19.312+09:00  WARN 9544 --- [http-nio-8080-exec-3] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 59, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:19.313+09:00  WARN 9544 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 59, col 15. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:19.313+09:00  WARN 9544 --- [http-nio-8080-exec-3] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 60, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:19.313+09:00  WARN 9544 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 60, col 15. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:19.314+09:00  WARN 9544 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 62, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:19.315+09:00  WARN 9544 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 63, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:19.316+09:00  WARN 9544 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 65, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:19.317+09:00  WARN 9544 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 66, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:19.318+09:00  WARN 9544 --- [http-nio-8080-exec-3] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 68, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:19.319+09:00  WARN 9544 --- [http-nio-8080-exec-3] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 69, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T17:37:21.135+09:00 ERROR 9544 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/ch06] threw exception [Request processing failed: org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): kr.co.ch06.mapper.User1Mapper.selectUser1s] with root cause
+
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): kr.co.ch06.mapper.User1Mapper.selectUser1s
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96) ~[mybatis-3.5.14.jar:3.5.14]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86) ~[mybatis-3.5.14.jar:3.5.14]
+	at jdk.proxy3/jdk.proxy3.$Proxy66.selectUser1s(Unknown Source) ~[na:na]
+	at kr.co.ch06.service.User1Service.selectUser1s(User1Service.java:25) ~[main/:na]
+	at kr.co.ch06.controller.User1Controller.list(User1Controller.java:25) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2024-03-11T17:37:26.761+09:00 ERROR 9544 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/ch06] threw exception [Request processing failed: org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): kr.co.ch06.mapper.User1Mapper.selectUser1s] with root cause
+
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): kr.co.ch06.mapper.User1Mapper.selectUser1s
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96) ~[mybatis-3.5.14.jar:3.5.14]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86) ~[mybatis-3.5.14.jar:3.5.14]
+	at jdk.proxy3/jdk.proxy3.$Proxy66.selectUser1s(Unknown Source) ~[na:na]
+	at kr.co.ch06.service.User1Service.selectUser1s(User1Service.java:25) ~[main/:na]
+	at kr.co.ch06.controller.User1Controller.list(User1Controller.java:25) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2024-03-11T17:44:33.295+09:00  INFO 9544 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 16 class path changes (0 additions, 0 deletions, 16 modifications)
+2024-03-11T17:44:33.343+09:00  INFO 9544 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 9544 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T17:44:33.343+09:00  INFO 9544 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T17:44:33.452+09:00  INFO 9544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T17:44:33.453+09:00  INFO 9544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T17:44:33.453+09:00  INFO 9544 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T17:44:33.459+09:00  INFO 9544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T17:44:33.459+09:00  INFO 9544 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 115 ms
+2024-03-11T17:44:33.501+09:00  INFO 9544 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T17:44:33.531+09:00  INFO 9544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T17:44:33.535+09:00  INFO 9544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T17:44:33.537+09:00  INFO 9544 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.207 seconds (process running for 439.998)
+2024-03-11T17:44:33.538+09:00  INFO 9544 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-11T17:44:42.067+09:00  INFO 9544 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-11T17:44:42.067+09:00  INFO 9544 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-11T17:44:42.069+09:00  INFO 9544 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-03-11T17:44:42.091+09:00  WARN 9544 --- [http-nio-8080-exec-1] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 59, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T17:44:42.091+09:00  WARN 9544 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 59, col 15. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:44:42.092+09:00  WARN 9544 --- [http-nio-8080-exec-1] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 60, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T17:44:42.092+09:00  WARN 9544 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 60, col 15. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:44:42.092+09:00  WARN 9544 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 62, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:44:42.092+09:00  WARN 9544 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 63, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:44:42.093+09:00  WARN 9544 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 65, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:44:42.093+09:00  WARN 9544 --- [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 66, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:44:42.093+09:00  WARN 9544 --- [http-nio-8080-exec-1] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 68, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T17:44:42.094+09:00  WARN 9544 --- [http-nio-8080-exec-1] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-1][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 69, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T17:44:44.755+09:00  INFO 10884 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 10884 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T17:44:44.756+09:00  INFO 10884 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T17:44:44.865+09:00  INFO 10884 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-11T17:44:44.865+09:00  INFO 10884 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-11T17:44:45.370+09:00  INFO 10884 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T17:44:45.376+09:00  INFO 10884 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T17:44:45.376+09:00  INFO 10884 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T17:44:45.402+09:00  INFO 10884 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T17:44:45.402+09:00  INFO 10884 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 536 ms
+2024-03-11T17:44:45.548+09:00  INFO 10884 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T17:44:45.724+09:00  INFO 10884 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T17:44:45.741+09:00  INFO 10884 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T17:44:45.747+09:00  INFO 10884 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.175 seconds (process running for 1.434)
+2024-03-11T17:44:48.471+09:00  INFO 10884 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-11T17:44:48.472+09:00  INFO 10884 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-11T17:44:48.472+09:00  INFO 10884 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-11T17:44:48.496+09:00  INFO 10884 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-11T17:44:48.634+09:00  INFO 10884 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f89f9a6
+2024-03-11T17:44:48.635+09:00  INFO 10884 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-11T17:44:48.665+09:00  INFO 10884 --- [http-nio-8080-exec-1] kr.co.ch06.controller.User1Controller    : [User1DTO(uid=z101
+, name=로아커, birth=2024-02-07, hp=010-1234-9876, age=33), User1DTO(uid=f101, name=김두석, birth=2024-01-01, hp=010-1234-5671, age=22), User1DTO(uid=f202, name=김두팔, birth=2024-02-01, hp=010-5678-1234, age=25), User1DTO(uid=z202, name=김두팔, birth=2024-03-12, hp=010-1234-5679, age=33), User1DTO(uid=b303, name=김춘식, birth=2024-03-05, hp=010-1234-5679, age=33)]
+2024-03-11T17:45:09.356+09:00  INFO 10884 --- [http-nio-8080-exec-3] kr.co.ch06.controller.User1Controller    : User1DTO(uid=b909, name=김비공구, birth=2024-03-01, hp=010-1234-5679, age=33)
+2024-03-11T17:45:09.415+09:00 ERROR 10884 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/ch06] threw exception [Request processing failed: org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '. '010-1234-5679', 33)' at line 1
+### The error may exist in file [C:\Users\java\Desktop\Workspace\Spring\ch06\build\resources\main\mappers\user1.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: INSERT INTO `user1` VALUES (?, ?, ?. ?, ?);
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '. '010-1234-5679', 33)' at line 1
+; bad SQL grammar []] with root cause
+
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '. '010-1234-5679', 33)' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:912) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[HikariCP-5.0.1.jar:na]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.14.jar:3.5.14]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at jdk.proxy2/jdk.proxy2.$Proxy65.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86) ~[mybatis-3.5.14.jar:3.5.14]
+	at jdk.proxy3/jdk.proxy3.$Proxy66.insertUser1(Unknown Source) ~[na:na]
+	at kr.co.ch06.service.User1Service.insertUser1(User1Service.java:17) ~[main/:na]
+	at kr.co.ch06.controller.User1Controller.register(User1Controller.java:40) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2024-03-11T17:46:22.722+09:00  INFO 10884 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-11T17:46:22.728+09:00  INFO 10884 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-11T17:46:23.917+09:00  INFO 1168 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 1168 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T17:46:23.918+09:00  INFO 1168 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T17:46:24.033+09:00  INFO 1168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-11T17:46:24.034+09:00  INFO 1168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-11T17:46:24.528+09:00  INFO 1168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T17:46:24.534+09:00  INFO 1168 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T17:46:24.535+09:00  INFO 1168 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T17:46:24.563+09:00  INFO 1168 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T17:46:24.563+09:00  INFO 1168 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 529 ms
+2024-03-11T17:46:24.706+09:00  INFO 1168 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T17:46:24.886+09:00  INFO 1168 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T17:46:24.903+09:00  INFO 1168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T17:46:24.908+09:00  INFO 1168 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.178 seconds (process running for 1.442)
+2024-03-11T17:48:00.525+09:00  INFO 1168 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-11T17:48:00.525+09:00  INFO 1168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-11T17:48:00.525+09:00  INFO 1168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-11T17:48:00.546+09:00  INFO 1168 --- [http-nio-8080-exec-1] kr.co.ch06.controller.User1Controller    : User1DTO(uid=b909, name=김비공구, birth=2024-03-01, hp=010-1234-5679, age=33)
+2024-03-11T17:48:00.553+09:00  INFO 1168 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-11T17:48:00.682+09:00  INFO 1168 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c09f156
+2024-03-11T17:48:00.683+09:00  INFO 1168 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-11T17:48:00.717+09:00  INFO 1168 --- [http-nio-8080-exec-2] kr.co.ch06.controller.User1Controller    : [User1DTO(uid=z101
+, name=로아커, birth=2024-02-07, hp=010-1234-9876, age=33), User1DTO(uid=f101, name=김두석, birth=2024-01-01, hp=010-1234-5671, age=22), User1DTO(uid=f202, name=김두팔, birth=2024-02-01, hp=010-5678-1234, age=25), User1DTO(uid=z202, name=김두팔, birth=2024-03-12, hp=010-1234-5679, age=33), User1DTO(uid=b303, name=김춘식, birth=2024-03-05, hp=010-1234-5679, age=33), User1DTO(uid=b909, name=김비공구, birth=2024-03-01, hp=010-1234-5679, age=33)]
+2024-03-11T17:48:05.768+09:00  WARN 1168 --- [http-nio-8080-exec-3] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 59, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T17:48:05.768+09:00  WARN 1168 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 59, col 15. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:48:05.769+09:00  WARN 1168 --- [http-nio-8080-exec-3] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 60, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T17:48:05.769+09:00  WARN 1168 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 60, col 15. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:48:05.770+09:00  WARN 1168 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 62, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:48:05.770+09:00  WARN 1168 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 63, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:48:05.771+09:00  WARN 1168 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated unwrapped fragment expression "/include/_header.html" found in template /index, line 65, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_header.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:48:05.771+09:00  WARN 1168 --- [http-nio-8080-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated unwrapped fragment expression "/include/_footer.html" found in template /index, line 66, col 10. Please use the complete syntax of fragment expressions instead ("~{/include/_footer.html}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-03-11T17:48:05.771+09:00  WARN 1168 --- [http-nio-8080-exec-3] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 68, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T17:48:05.777+09:00  WARN 1168 --- [http-nio-8080-exec-3] o.t.s.p.StandardIncludeTagProcessor      : [THYMELEAF][http-nio-8080-exec-3][/index] Deprecated attribute {th:include,data-th-include} found in template /index, line 69, col 15. Please use {th:insert,data-th-insert} instead, this deprecated attribute will be removed in future versions of Thymeleaf.
+2024-03-11T17:48:07.681+09:00  INFO 1168 --- [http-nio-8080-exec-4] kr.co.ch06.controller.User1Controller    : [User1DTO(uid=z101
+, name=로아커, birth=2024-02-07, hp=010-1234-9876, age=33), User1DTO(uid=f101, name=김두석, birth=2024-01-01, hp=010-1234-5671, age=22), User1DTO(uid=f202, name=김두팔, birth=2024-02-01, hp=010-5678-1234, age=25), User1DTO(uid=z202, name=김두팔, birth=2024-03-12, hp=010-1234-5679, age=33), User1DTO(uid=b303, name=김춘식, birth=2024-03-05, hp=010-1234-5679, age=33), User1DTO(uid=b909, name=김비공구, birth=2024-03-01, hp=010-1234-5679, age=33)]
+2024-03-11T17:48:20.081+09:00  INFO 1168 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 16 class path changes (0 additions, 0 deletions, 16 modifications)
+2024-03-11T17:48:20.094+09:00  INFO 1168 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-11T17:48:20.102+09:00  INFO 1168 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-11T17:48:20.143+09:00  INFO 1168 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 1168 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T17:48:20.143+09:00  INFO 1168 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T17:48:20.263+09:00  INFO 1168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T17:48:20.263+09:00  INFO 1168 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T17:48:20.263+09:00  INFO 1168 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T17:48:20.271+09:00  INFO 1168 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T17:48:20.272+09:00  INFO 1168 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 124 ms
+2024-03-11T17:48:20.301+09:00  INFO 1168 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T17:48:20.339+09:00  INFO 1168 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T17:48:20.343+09:00  INFO 1168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T17:48:20.346+09:00  INFO 1168 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.215 seconds (process running for 116.88)
+2024-03-11T17:48:20.347+09:00  INFO 1168 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-11T17:50:11.272+09:00  INFO 1168 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 16 class path changes (0 additions, 0 deletions, 16 modifications)
+2024-03-11T17:50:11.316+09:00  INFO 1168 --- [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.9 with PID 1168 (C:\Users\java\Desktop\Workspace\Spring\ch06\build\classes\java\main started by java in C:\Users\java\Desktop\Workspace\Spring\ch06)
+2024-03-11T17:50:11.316+09:00  INFO 1168 --- [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T17:50:11.420+09:00  INFO 1168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T17:50:11.421+09:00  INFO 1168 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T17:50:11.421+09:00  INFO 1168 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T17:50:11.428+09:00  INFO 1168 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2024-03-11T17:50:11.428+09:00  INFO 1168 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 111 ms
+2024-03-11T17:50:11.453+09:00  INFO 1168 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-11T17:50:11.483+09:00  INFO 1168 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-11T17:50:11.486+09:00  INFO 1168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2024-03-11T17:50:11.488+09:00  INFO 1168 --- [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.182 seconds (process running for 228.023)
+2024-03-11T17:50:11.489+09:00  INFO 1168 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

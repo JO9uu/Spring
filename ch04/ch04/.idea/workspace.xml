@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ch04:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e37aaa56-c74b-4007-b7ff-880b3336de36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ch01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch01/src/main/java/kr/co/ch01/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch01/src/test/java/kr/co/ch01/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch02/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch02/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch02/src/main/java/kr/co/ch02/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch02/src/main/java/kr/co/ch02/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch02/src/main/java/kr/co/ch02/sub1/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch02/src/main/java/kr/co/ch02/sub1/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch02/src/main/java/kr/co/ch02/sub1/Welcome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch02/src/main/java/kr/co/ch02/sub2/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch02/src/main/java/kr/co/ch02/sub2/Cpu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch02/src/main/java/kr/co/ch02/sub2/Hdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch02/src/main/java/kr/co/ch02/sub2/Ram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch02/src/test/java/kr/co/ch02/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch03/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch03/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch03/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch03/src/main/java/kr/co/ch03/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch03/src/main/java/kr/co/ch03/BasicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch03/src/main/java/kr/co/ch03/LogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch03/src/main/java/kr/co/ch03/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch03/src/test/java/kr/co/ch03/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/ch04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/co/ch04/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/co/ch04/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/co/ch04/config/MyWebAppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/co/ch04/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/co/ch04/controller/User1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/co/ch04/controller/User2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/co/ch04/dao/User1Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/co/ch04/dao/User1RowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/co/ch04/dao/User2Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/co/ch04/dao/User2RowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/co/ch04/dto/User1DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/co/ch04/dto/User2DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/co/ch04/service/User1Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/co/ch04/service/User2Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user1/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user1/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user1/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user2/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user2/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user2/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/java/kr/co/ch05/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/java/kr/co/ch05/controller/User1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/java/kr/co/ch05/controller/User2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/java/kr/co/ch05/dao/User1DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/java/kr/co/ch05/dto/User1DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/java/kr/co/ch05/dto/User2DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/java/kr/co/ch05/dto/User3DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/java/kr/co/ch05/mapper/User2Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/java/kr/co/ch05/service/User1Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/java/kr/co/ch05/service/User2Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/java/kr/co/ch05/service/User3Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/resources/mappers/user1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/resources/mappers/user2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/webapp/WEB-INF/views/user2/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/webapp/WEB-INF/views/user2/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/webapp/WEB-INF/views/user2/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/webapp/WEB-INF/views/user3/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/webapp/WEB-INF/views/user3/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/webapp/WEB-INF/views/user3/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ch05/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Database-9" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Database-9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch01/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch01/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch02/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch02/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch04/.indexes/e4/f2/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch04/.indexes/e4/f3/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch04/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch04/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch04/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch04/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/ThisJava/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/ThisJava/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/173439706.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/173439706.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/1958677263.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/1958677263.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/3811958767.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/3811958767.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.m2e.logback/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.m2e.logback/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Ch02-1/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Ch02-1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Ch02-1/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Ch02-1/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Ch02-1/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Ch02-1/src/sub3/OperatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Ch03-2/src/ForTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Exam/src/test3/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Exam/src/test3/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Exam/src/test3/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Exam/src/test3/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Exam/src/test3/Test03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Exam/src/test3/Test03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Exam/src/test3/Test04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Exam/src/test3/Test04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Exam/src/test3/Test05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Exam/src/test3/Test05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Exam/src/test3/Test06.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Exam/src/test3/Test06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Exam/src/test3/Test07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Exam/src/test3/Test07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Exam/src/test3/Test08.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Exam/src/test3/Test08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/bin/Ch01/sec06/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/bin/Ch01/sec11/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/bin/Ch01/sec12/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/bin/Ch02/sec01/VariableInitializationExaple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/bin/Ch02/sec04/FloatDoubleExamle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/bin/Ch02/sec11/VariableScopeExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/bin/Ch03/sec01/ArithmeticOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/bin/Ch03/sec01/SignOperatorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/bin/Ch05/Sec03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/bin/Ch05/Sec05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/bin/Ch05/Sec06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/bin/Ch05/Sec7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/bin/Ch05/Sec8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/bin/Ch05/Sec9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/src/Ch01/sec06/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/src/Ch01/sec11/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/src/Ch01/sec12/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/src/Ch02/sec01/VariableInitializationExaple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/src/Ch02/sec04/FloatDoubleExamle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/src/Ch02/sec11/VariableScopeExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/src/Ch03/sec01/ArithmeticOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/src/Ch03/sec01/SignOperatorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/src/Ch05/Sec03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/src/Ch05/Sec05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/src/Ch05/Sec06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/src/Ch05/Sec7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/src/Ch05/Sec8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/ThisJava/src/Ch05/Sec9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/a1226/bin/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2dFnaUw07udwhHPOJkHD8EWHuMc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.All in ch04.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.19.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.index.jsp (1).executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.index.jsp (2).executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.index.jsp.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.list.jsp.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/java/Desktop/Workspace/Spring/ch04/ch04/src/main/webapp/WEB-INF/views&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\java\Desktop\Workspace\Spring\ch04\ch04\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\java\Desktop\Workspace\Spring\ch04\ch04\src\main\resources\css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.19">
+    <configuration name="All in ch04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch04" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.1.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.19" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="COMMON_VM_ARGUMENTS" value="-Duser.language=en -Duser.region=us" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ch04:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ch04" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="94b77811-f8aa-46f5-8c75-76821ed572fe" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63496" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ch04:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 10.1.19" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Duser.language=en -Duser.region=us" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ch04:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ch04_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="f5834e33-c8ea-4133-917c-84f017584980" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51530" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ch04:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="list.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 10.1.19" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/views/user1/list.jsp" />
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <artifact name="ch04:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ch04" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="764aa437-3d05-4b15-a7bf-4544a478ce35" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50806" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ch04:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in ch04" />
+      <item itemvalue="Tomcat Server.Tomcat 10.1.19" />
+      <item itemvalue="Tomcat Server.index.jsp" />
+      <item itemvalue="Tomcat Server.list.jsp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.index.jsp" />
+        <item itemvalue="Tomcat Server.list.jsp" />
+        <item itemvalue="JUnit.All in ch04" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e37aaa56-c74b-4007-b7ff-880b3336de36" name="Changes" comment="" />
+      <created>1709612758319</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709612758319</updated>
+      <workItem from="1709612759407" duration="3612000" />
+      <workItem from="1709617072270" duration="3441000" />
+      <workItem from="1709622376467" duration="1260000" />
+      <workItem from="1709623725066" duration="4822000" />
+      <workItem from="1709683565415" duration="786000" />
+      <workItem from="1709696351781" duration="29000" />
+      <workItem from="1709701223955" duration="10000" />
+      <workItem from="1709713108698" duration="459000" />
+      <workItem from="1709713779602" duration="123000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

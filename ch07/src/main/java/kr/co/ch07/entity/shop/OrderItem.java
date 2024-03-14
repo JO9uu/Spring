@@ -1,0 +1,33 @@
+package kr.co.ch07.entity.shop;
+
+import jakarta.persistence.*;
+import lombok.*;
+import org.hibernate.annotations.CreationTimestamp;
+
+import java.time.LocalDateTime;
+
+@Getter
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString(exclude = "order")
+@Builder
+@Entity
+@Table(name = "shop_orderItem")
+public class OrderItem {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int orderItemId;
+
+    @ManyToOne
+    @JoinColumn(name = "orderId")
+    private Order order;
+
+    @ManyToOne
+    @JoinColumn(name = "productId")
+    private Product product;
+
+    private int count;
+
+
+}
