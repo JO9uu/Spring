@@ -38,6 +38,7 @@ public class User1Controller {
         - 일반적으로 상태코드(header), 본문내용(body)을 구성해서 제공
 
     */
+
     @ResponseBody
     @GetMapping("/user1")
     public List<User1DTO> list(){
