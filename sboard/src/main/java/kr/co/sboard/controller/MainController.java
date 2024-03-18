@@ -1,4 +1,4 @@
-package controller;
+package kr.co.sboard.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -14,5 +14,6 @@ public class MainController {
     public String index(){
         return "/index";
     }
+
 
 }
