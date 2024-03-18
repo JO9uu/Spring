@@ -1,15 +1,29 @@
 package kr.co.sboard.controller;
 
 
-import lombok.AllArgsConstructor;
+import jakarta.servlet.http.HttpServletRequest;
+import kr.co.sboard.dto.TermsDTO;
+import kr.co.sboard.dto.UserDTO;
+import kr.co.sboard.service.UserService;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.HashMap;
+import java.util.Map;
 
 @Controller
 @Slf4j
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class UserController {
+
+    private final UserService userService;
 
     @GetMapping(value = "/user/login")
     public String login(){
@@ -21,11 +35,41 @@ public class UserController {
         return "/user/register";
     }
 
-    @GetMapping(value = "/user/terms")
-    public String terms(){
+    @PostMapping("/user/register")
+    public String register(HttpServletRequest req, UserDTO userDTO){
+
+        String regip = req.getRemoteAddr();
+        userDTO.setRegip(regip);
+
+        log.info(userDTO.toString());
+
+        userService.insertUser(userDTO);
+
+        return "redirect:/user/register?success=200";
+    }
+
+    @GetMapping("/user/terms")
+    public String terms(Model model){
+
+        TermsDTO termsDTO = userService.selectTerms();
+        model.addAttribute(termsDTO);
+
         return "/user/terms";
     }
 
+    @ResponseBody
+    @GetMapping("/user/uid/{uid}")
+   public ResponseEntity<?> checkUid (@PathVariable("uid") String uid){
 
+        int count = userService.selectCountUser(uid);
+        log.info("count : " + count);
+
+        // Json 생성
+        Map<String, Object> resultMap = new HashMap<>();
+        resultMap.put("result", count);
+
+        return ResponseEntity.ok().body(resultMap);
+
+   }
 
 }

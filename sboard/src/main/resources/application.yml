@@ -33,6 +33,9 @@ spring:
         livereload:
             enabled: true
 
+mybatis:
+    mapper-locations: classpath:mappers/**/*.xml
+
     jpa:
         database: mysql
         hibernate:
@@ -43,3 +46,4 @@ spring:
             hibernate:
                 format_sql: true
                 show_sql: true
+
