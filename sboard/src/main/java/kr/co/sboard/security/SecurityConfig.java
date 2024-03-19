@@ -13,37 +13,43 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 public class SecurityConfig {
 
     @Bean
-    public SecurityFilterChain filterChain (HttpSecurity httpSecurity) throws Exception {
+    public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception {
 
-        // 인증 설정(로그인)
+        // 로그인 설정
         httpSecurity.formLogin(login -> login
-                                                    .loginPage("/user/login")
-                                                    .defaultSuccessUrl("/user/success")
-                                                    .failureUrl("/user/login?success=100")
-                                                    .usernameParameter("uid")
-                                                    .passwordParameter("pass"));
+                                            .loginPage("/user/login")
+                                            .defaultSuccessUrl("/")
+                                            .failureUrl("/user/login?success=100")
+                                            .usernameParameter("uid")
+                                            .passwordParameter("pass"));
+
         // 로그아웃 설정
         httpSecurity.logout(logout -> logout
-                                        .invalidateHttpSession(true)
-                                        .logoutRequestMatcher(new AntPathRequestMatcher("/user/logout"))
-                                        .logoutSuccessUrl("/user/login?success=200"));
-        // 인가 설정
+                                            .invalidateHttpSession(true)
+                                            .logoutRequestMatcher(new AntPathRequestMatcher("/user/logout"))
+                                            .logoutSuccessUrl("/user/login?success=300"));
+
+        /*
+            인가 설정
+             - Spring Security는 존재하지 않는 요청 주소에 대해 기본적으로 login 페이지로 redirect를 수행
+             - 자원 요청의 추가 인가 처리 확장과 redirect 기본 해제를 위해 마지막에 .anyRequest().permitAll() 설정
+         */
         httpSecurity.authorizeHttpRequests(authorize -> authorize
-                                                                                .requestMatchers("/").permitAll()
-                                                                                .requestMatchers("/admin/**").hasAuthority("ADMIN")
-                                                                                .requestMatchers("/manager/**").hasAnyAuthority("ADMIN", "MANAGER")
-                                                                                .anyRequest().permitAll());
+                                            .requestMatchers("/").authenticated()
+                                            .requestMatchers("/admin/**").hasAuthority("ADMIN")
+                                            .requestMatchers("/manager/**").hasAnyAuthority("ADMIN", "MANAGER")
+                                            .anyRequest().permitAll());
 
         // 사이트 위변조 방지 설정
         httpSecurity.csrf(CsrfConfigurer::disable);
-        return httpSecurity.build();
-        }
-    
-        // Security 로그인 인증 암호화 인코더 설정
-        @Bean
-        public PasswordEncoder passwordEncoder(){
-            return new BCryptPasswordEncoder();
 
-        }
+        return httpSecurity.build();
+    }
+
+    // Security 인증 암호화 인코더 설정
+    @Bean
+    public PasswordEncoder passwordEncoder(){
+        return new BCryptPasswordEncoder();
+    }
 
 }

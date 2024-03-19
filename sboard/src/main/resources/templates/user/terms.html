@@ -19,9 +19,7 @@
                 return true;
             }else{
                 //alert('이용약관과 개인정보 취급방침은 필수 동의입니다.');
-                const resultModal = new bootstrap.Modal('#resultModal');
-                resultModal.show();
-
+                showModal('이용약관과 개인정보 취급방침은 필수 동의입니다.')
                 return false;
             }
         }

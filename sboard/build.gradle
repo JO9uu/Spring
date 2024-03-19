@@ -36,9 +36,24 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter-test:3.0.3'
     testImplementation 'org.springframework.security:spring-security-test'
+
+    // https://mvnrepository.com/artifact/nz.net.ultraq.thymeleaf/thymeleaf-layout-dialect
     implementation group: 'nz.net.ultraq.thymeleaf', name: 'thymeleaf-layout-dialect', version: '3.3.0'
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mail
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-mail', version: '3.2.3'
+
+    // https://mvnrepository.com/artifact/org.modelmapper/modelmapper dto<=>entity 변환 도우미
+    implementation group: 'org.modelmapper', name: 'modelmapper', version: '3.2.0'
+
+
 }
 
 tasks.named('test') {
     useJUnitPlatform()
+}
+
+// Java에서 빌드 정보 객체(BuildProperties)를 참조 위해 gradle buildInfo() 실행
+springBoot {
+    buildInfo()
 }

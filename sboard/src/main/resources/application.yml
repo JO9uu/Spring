@@ -13,10 +13,6 @@ logging:
 # - 영문자 하나의 알파벳은 8비트(1바이트)이므로 32글자 이상이면 됨
 # - https://randomkeygen.com/
 # - https://acte.ltd/utils/randomkeygen
-jwt:
-    issuer: sardia0923@gmail.com
-    secret: mfQaLash2T85xu1tPgoQPbTi26SRvJd4
-
 server:
     port: 8080
     servlet:
@@ -32,6 +28,21 @@ spring:
     devtools:
         livereload:
             enabled: true
+
+# 이메일 설정
+    mail:
+        host: smtp.gmail.com
+        port: 587
+        username: sardia0923@gmail.com
+        password: kjqj swio ysab mvlu
+        properties:
+            mail:
+                smtp:
+                    auth: true
+                    timeout: 5000
+                    starttls:
+                        enable: true
+
 
 mybatis:
     mapper-locations: classpath:mappers/**/*.xml

@@ -6,20 +6,24 @@
 <mapper namespace="kr.co.sboard.mapper.UserMapper">
 
     <select id="selectTerms" resultType="kr.co.sboard.dto.TermsDTO">
-        select * from `terms`
+        select * from terms
     </select>
 
     <select id="selectCountUser" resultType="int">
-
-        select count(*) from user where uid=#{uid}
-
+        select count(*) from user
+        <where>
+            <if test="type == 'uid'">uid=#{value}</if>
+            <if test="type == 'nick'">nick=#{value}</if>
+            <if test="type == 'hp'">hp=#{value}</if>
+            <if test="type == 'email'">email=#{value}</if>
+        </where>
     </select>
 
     <insert id="insertUser">
-
         insert into user set
                                 uid=#{uid},
                                 pass=#{pass},
+                                name=#{name},
                                 nick=#{nick},
                                 email=#{email},
                                 hp=#{hp},
@@ -28,10 +32,6 @@
                                 addr2=#{addr2},
                                 regip=#{regip},
                                 regDate=NOW()
-
     </insert>
-
-
-
 
 </mapper>
