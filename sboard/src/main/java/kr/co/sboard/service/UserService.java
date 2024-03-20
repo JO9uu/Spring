@@ -9,7 +9,6 @@ import kr.co.sboard.dto.UserDTO;
 import kr.co.sboard.mapper.UserMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -26,7 +25,7 @@ public class UserService {
     private final PasswordEncoder passwordEncoder;
 
     // JavaMailSender 주입
-   private final JavaMailSender javaMailSender;
+    private final JavaMailSender javaMailSender;
 
     public TermsDTO selectTerms(){
         return userMapper.selectTerms();

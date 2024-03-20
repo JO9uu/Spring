@@ -5,6 +5,7 @@ import kr.co.sboard.security.MyUserDetails;
 import lombok.Builder;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.info.BuildProperties;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
@@ -18,6 +19,7 @@ public class MainController {
 
     // 빌드 정보 객체를 주입 받기 위해 build.gradle 파일 맨 밑 buildInfo() 실행 해야됨
     private final BuildProperties buildProperties;
+
 
     /*
     *   SecurityContextHolder에 저장된 Authentication 사용자 인증객체에서 principal 즉 MyUserDetails(User 엔티티)를 구해 View에 email 출력

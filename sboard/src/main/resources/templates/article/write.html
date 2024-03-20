@@ -4,18 +4,16 @@
 
 <div class="container-fluid px-4" layout:fragment="content">
 
-<script>
+    <script>
+        window.onload = function (){
+            const btnSubmit = document.getElementById('btnSubmit');
 
-    window.onload = function (){
-        const btnSubmit = document.getElementById('btnSubmit');
-
-        btnSubmit.onclick = function (e){
-            e.preventDefault();
-            document.formWrite.submit();
+            btnSubmit.onclick = function (e){
+                e.preventDefault();
+                document.formWrite.submit();
+            }
         }
-    }
-
-</script>
+    </script>
 
     <h3 class="mt-4 mb-4">게시판 글쓰기</h3>
 
@@ -30,7 +28,6 @@
             <form name="formWrite" th:action="@{/article/write}" method="post">
                 <input type="hidden" name="writer" th:value="${#authentication.principal.user.uid}">
                 <input type="hidden" name="cate" th:value="${cate}">
-
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">글제목</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" name="title" placeholder="글 제목 입력">
@@ -43,8 +40,11 @@
                     <label for="formFileMultiple" class="form-label">파일첨부</label>
                     <input class="form-control" type="file" name="files" id="formFileMultiple" multiple>
                 </div>
+
             </form>
+
         </div>
+
     </div>
 
     <div class="text-end">

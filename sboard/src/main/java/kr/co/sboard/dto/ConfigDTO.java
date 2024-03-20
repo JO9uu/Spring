@@ -17,10 +17,6 @@ public class ConfigDTO {
     private String cate;
     private String boardName;
     private String admin;
-
-    @ColumnDefault("0")
     private int total;
-
-    @CreationTimestamp
     private LocalDateTime createDate;
 }
