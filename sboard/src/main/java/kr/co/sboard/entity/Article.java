@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Locale;
 
 @Getter
+@Setter
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor

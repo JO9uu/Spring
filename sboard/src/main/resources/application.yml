@@ -28,6 +28,9 @@ spring:
     devtools:
         livereload:
             enabled: true
+        restart:
+            enabled: false
+
 
 
 # 이메일 설정

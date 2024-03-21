@@ -30,7 +30,7 @@ public class MainController {
     public String index(Authentication authentication, Model model){
 
         // SecurityContextHolder의 Authentication의 principal 가져오기
-
+        /*
         MyUserDetails userDetails = (MyUserDetails) authentication.getPrincipal();
         User user = userDetails.getUser();
         log.info("user : " + user);
@@ -45,7 +45,7 @@ public class MainController {
         model.addAttribute("appName", appName);
         model.addAttribute("appVersion", appVersion);
         model.addAttribute("userEmail", user.getEmail());
-
+        */
         return "/index";
     }
 

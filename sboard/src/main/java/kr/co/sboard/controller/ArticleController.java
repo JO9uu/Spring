@@ -5,30 +5,23 @@ import kr.co.sboard.dto.ArticleDTO;
 import kr.co.sboard.dto.PageRequestDTO;
 import kr.co.sboard.dto.PageResponseDTO;
 import kr.co.sboard.service.ArticleService;
-import kr.co.sboard.service.FileService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import java.util.List;
-
 @RequiredArgsConstructor
 @Controller
 @Slf4j
 public class ArticleController {
-
     private final ArticleService articleService;
-    
     /*
     * @ModelAttribute("cate")
     *  - modelAttribute("cate", cate)와 동일
     * */
-
     @GetMapping("/article/list")
     public String list(Model model, PageRequestDTO pageRequestDTO){
 
@@ -39,10 +32,8 @@ public class ArticleController {
 
         return "/article/list";
     }
-
     @GetMapping("article/write")
     public String write(@ModelAttribute("cate") String cate){
-
         return "/article/write";
     }
 
@@ -55,7 +46,6 @@ public class ArticleController {
 
         String regip = req.getRemoteAddr();
         articleDTO.setRegip(regip);
-
         log.info(articleDTO.toString());
 
         articleService.insertArticle(articleDTO);
@@ -64,7 +54,7 @@ public class ArticleController {
     }
 
     @GetMapping("/article/view")
-    public String view(int no, Model model){
+    public String view(int no, Model model) {
 
         ArticleDTO articleDTO = articleService.findById(no);
         model.addAttribute(articleDTO);
@@ -72,12 +62,4 @@ public class ArticleController {
         return "/article/view";
 
     }
-/*
-    @GetMapping("/article/fileDownload")
-    public void fileDownload(int fno){
-        return FileService.fileDownload(fno);
-
-    }
-*/
-
 }

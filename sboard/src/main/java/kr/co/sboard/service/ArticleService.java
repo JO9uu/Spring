@@ -75,7 +75,6 @@ public class ArticleService {
     public void insertArticle(ArticleDTO articleDTO){
 
         // 파일 첨부 처리
-        // 파일 첨부 처리
         List<FileDTO> files = fileService.fileUpload(articleDTO);
 
         // 파일 첨부 갯수 초기화

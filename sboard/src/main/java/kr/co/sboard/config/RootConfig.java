@@ -1,12 +1,18 @@
 package kr.co.sboard.config;
 
+import lombok.Getter;
+import lombok.Setter;
 import org.aspectj.apache.bcel.generic.RET;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @Configuration
+@Getter
+@Setter
+@EnableAspectJAutoProxy
 public class RootConfig {
 
     @Bean
@@ -22,14 +28,6 @@ public class RootConfig {
 
         return modelMapper;
     }
-
-    @Bean
-    public AppInfo appInfo(){
-
-        return new AppInfo();
-    }
-
-
 
 
 }
