@@ -22,9 +22,9 @@ spring:
         name: sboard
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        password: 4321
+        password: Asdf!2#4
         url: jdbc:mysql://127.0.0.1:3306/jboard
-        username: jo9
+        username: jo9uu
     devtools:
         livereload:
             enabled: true
@@ -46,6 +46,9 @@ spring:
                     timeout: 5000
                     starttls:
                         enable: true
+    thymeleaf:
+        prefix: classpath:/templates
+
 
 
 mybatis:

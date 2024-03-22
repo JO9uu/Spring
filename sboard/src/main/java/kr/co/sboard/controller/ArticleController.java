@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 @Slf4j
 public class ArticleController {
+
     private final ArticleService articleService;
     /*
     * @ModelAttribute("cate")

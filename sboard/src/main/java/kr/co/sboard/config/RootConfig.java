@@ -5,6 +5,8 @@ import lombok.Setter;
 import org.aspectj.apache.bcel.generic.RET;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.info.BuildProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
@@ -14,6 +16,18 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @Setter
 @EnableAspectJAutoProxy
 public class RootConfig {
+
+    // 빌드 정보 객체를 주입 받기 위해 build.gradle 파일 맨 밑에 buildInfo() 실행 해야함.
+    @Autowired
+    private BuildProperties buildProperties;
+
+    @Bean
+    public AppInfo appInfo(){
+
+        String name = buildProperties.getName();
+        String version = buildProperties.getVersion();
+        return new AppInfo(name, version);
+    }
 
     @Bean
     public ModelMapper modelMapper(){
