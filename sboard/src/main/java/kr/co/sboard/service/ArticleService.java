@@ -1,5 +1,6 @@
 package kr.co.sboard.service;
 
+import jakarta.transaction.Transactional;
 import kr.co.sboard.dto.ArticleDTO;
 import kr.co.sboard.dto.FileDTO;
 import kr.co.sboard.dto.PageRequestDTO;
@@ -99,6 +100,31 @@ public class ArticleService {
             fileRepository.save(file);
         }
     }
+
+    @Transactional
+    public void modifyArticle(ArticleDTO articleDTO){
+        // 글 번호로 수정할 글 찾기
+        Article article = articleRepository.findById(articleDTO.getNo())
+                .orElseThrow(() -> new IllegalArgumentException("해당 게시물이 없습니다. no= " + articleDTO.getNo()));
+
+        // 받은 DTO의 정보로 해당 글을 수정합니다.
+        article.setTitle(articleDTO.getTitle());
+        article.setContent(articleDTO.getContent());
+
+        // 수정된 내용을 저장합니다.
+        articleRepository.save(article);
+
+    }
+
+    @Transactional
+    public void deleteArticle(Integer no){
+        Article article = articleRepository.findById(no).orElseThrow(() ->
+                new IllegalArgumentException("해당 게시물이 없습니다. no= " + no));
+        articleRepository.delete(article);
+    }
+
+
+
 
 
 }

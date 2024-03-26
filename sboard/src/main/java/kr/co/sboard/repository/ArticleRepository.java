@@ -1,6 +1,7 @@
 package kr.co.sboard.repository;
 
 import kr.co.sboard.entity.Article;
+import org.apache.ibatis.annotations.Select;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -17,6 +18,8 @@ public interface ArticleRepository extends JpaRepository<Article, Integer> {
     */
     public Page<Article> findByParentAndCate(int parent, String cate, Pageable pageable);
     public List<Article> findByParent(int parent);
+
+
 
 
 

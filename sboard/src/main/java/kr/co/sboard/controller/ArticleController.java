@@ -4,14 +4,14 @@ import jakarta.servlet.http.HttpServletRequest;
 import kr.co.sboard.dto.ArticleDTO;
 import kr.co.sboard.dto.PageRequestDTO;
 import kr.co.sboard.dto.PageResponseDTO;
+import kr.co.sboard.entity.Article;
 import kr.co.sboard.service.ArticleService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 
 @RequiredArgsConstructor
 @Controller
@@ -24,7 +24,7 @@ public class ArticleController {
     *  - modelAttribute("cate", cate)와 동일
     * */
     @GetMapping("/article/list")
-    public String list(Model model, PageRequestDTO pageRequestDTO){
+    public String list(Model model, String cate, PageRequestDTO pageRequestDTO){
 
         PageResponseDTO pageResponseDTO = articleService.findByParentAndCate(pageRequestDTO);
         log.info("pageResponseDTO : " + pageResponseDTO);
@@ -34,7 +34,7 @@ public class ArticleController {
         return "/article/list";
     }
     @GetMapping("article/write")
-    public String write(@ModelAttribute("cate") String cate){
+    public String write(Model model, String cate){
         return "/article/write";
     }
 
@@ -55,7 +55,7 @@ public class ArticleController {
     }
 
     @GetMapping("/article/view")
-    public String view(int no, Model model) {
+    public String view(Model model, String cate, int no) {
 
         ArticleDTO articleDTO = articleService.findById(no);
         model.addAttribute(articleDTO);
@@ -63,4 +63,22 @@ public class ArticleController {
         return "/article/view";
 
     }
+
+
+    @PostMapping("/article/modify")
+    public String modify(ArticleDTO articleDTO){
+        articleService.modifyArticle(articleDTO);
+        return "redirect:/article/view?no=" + articleDTO.getNo();
+    }
+
+    @DeleteMapping("/deleteArticle/")
+    public ResponseEntity<String> deleteArticle(@PathVariable Integer no){
+        articleService.deleteArticle(no);
+        return ResponseEntity.ok().body("삭제 성공...");
+    }
+
+
+
+
+
 }

@@ -1,3 +1,24 @@
+async function deleteArticle() {
+    const articleNo = [[${articleDTO.no}]]; // jsp 파일에서 가져온 글 번호
+    const url = `/article/${articleNo}`; // DELETE 요청을 보낼 URL
+
+    try {
+        const response = await fetch(url, {
+            method: 'DELETE'
+        });
+
+        if (response.ok) {
+            console.log('Article deleted successfully');
+            // 삭제가 성공하면 페이지를 새로고침하여 변경된 상태를 반영할 수 있도록 할 수 있습니다.
+            window.location.reload();
+        } else {
+            console.error('Failed to delete article');
+        }
+    } catch (error) {
+        console.error('Error deleting article:', error);
+    }
+}
+
 // fetch GET용
 async function fetchGet(url){
 
@@ -74,6 +95,9 @@ async function fetchDelete(url){
     }
 }
 
+const url = '여기에_사용되는_URL_입력'
+fetchDelete(url);
+
 
 // fetch PUT용
 async function fetchPut(url, jsonData){
@@ -109,26 +133,35 @@ function alertModal(message){
 
 function confirmModal(message){
 
-    const modal = document.getElementById('confirmModal');
-    modal.getElementsByClassName('modal-body')[0].innerText = message;
-    const resultModal = new bootstrap.Modal(modal);
-    resultModal.show(); // 모달 열기
+    promiseConfirmModal(message).then((result) => {
+        console.log("result1 : " + result);
+        return result;
+    });
+}
 
-    // 결과값 반환
+function promiseConfirmModal(message){
+
     return new Promise(resolve => {
+
+        const confirmModal = document.getElementById('confirmModal');
+        const btnOk = document.getElementById('btnOk');
+        const btnCancel = document.getElementById('btnCancel');
+        confirmModal.getElementsByClassName('modal-body')[0].innerText = message;
+
+        const modal = new bootstrap.Modal(confirmModal);
+
         // 확인 버튼 클릭 시
-        document.getElementById('btnOk').onclick = function() {
-            modal.hide(); // 모달 닫기
-            resolve(true); // 확인 결과값 반환
-        };
+        btnOk.addEventListener('click', function (){
+            resolve(true);
+        });
 
         // 취소 버튼 클릭 시
-        document.getElementById('btnCancel').onclick = function() {
-            modal.hide(); // 모달 닫기
-            resolve(false); // 취소 결과값 반환
-        };
-    });
+        btnCancel.addEventListener('click', function (){
+            resolve(false);
+        });
 
+        modal.show(); // 모달 열기
+    });
     /*
     const modal = document.getElementById('confirmModal');
     modal.getElementsByClassName('modal-body')[0].innerText = message;

@@ -19,6 +19,14 @@
             }
 
             //////////////////////////////////////////////////////////////////////////
+            // 게시글 수정, 삭제
+            //////////////////////////////////////////////////////////////////////////
+            // DELETE 요청을 보내는 함수
+
+
+
+
+            //////////////////////////////////////////////////////////////////////////
             // 댓글 삭제/수정(동적 이벤트 처리)
             //////////////////////////////////////////////////////////////////////////
             document.addEventListener('click', async function(e){
@@ -162,6 +170,10 @@
                 // 태그 문자열 삽입
                 commentList.insertAdjacentHTML('beforeend', commentArticle);
             }
+
+
+
+
         }
     </script>
 
@@ -202,8 +214,18 @@
     </div>
 
     <div class="text-end">
-        <a th:href="@{/article/list}" class="btn btn-primary" id="btnSubmit">목록</a>
+        <a th:href="@{/article/list}" class="btn btn-primary" id="btnSubmit" style="float:right">목록</a>
     </div>
+    <div class="text-end" style="float:left">
+        <button onclick="deleteArticle()" class="btn btn-danger">삭제</button>
+    </div>
+    <div class="text-end" style="float:left">
+        <form id="updateForm" method="post" action="/article/modify">
+            <input type="hidden" name="articleNo" th:value="${articleDTO.no}">
+            <button type="submit" class="btn btn-secondary" id="btn-update">수정</button>
+        </form>
+    </div>
+   <br><br><br><br><br>
 
     <!-- 댓글목록 시작 -->
     <div id="commentList">

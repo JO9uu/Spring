@@ -102,4 +102,21 @@ public class UserController {
             return ResponseEntity.ok().body(resultMap);
         }
     }
+
+    @GetMapping("/user/findId")
+    public String findId(){
+        return "/user/findId";
+    }
+    @GetMapping("/user/findIdResult")
+    public String findIdResult(HttpSession session, Model model){
+        return "/user/findIdResult";
+    }
+    @GetMapping("/user/findPassword")
+    public String findPassword(){
+        return "/user/findPassword";
+    }
+    @GetMapping("/user/findPasswordChange")
+    public String findPasswordChange(){
+        return "/user/findPassordChange";
+    }
 }
