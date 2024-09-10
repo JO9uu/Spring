@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32e5e525-7f34-4a63-875f-4686d3984bff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ch01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch01/src/main/java/kr/co/ch01/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch01/src/test/java/kr/co/ch01/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch02/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch02/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch02/src/main/java/kr/co/ch02/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch02/src/main/java/kr/co/ch02/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch02/src/main/java/kr/co/ch02/sub1/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch02/src/main/java/kr/co/ch02/sub1/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch02/src/main/java/kr/co/ch02/sub1/Welcome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch02/src/main/java/kr/co/ch02/sub2/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch02/src/main/java/kr/co/ch02/sub2/Cpu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch02/src/main/java/kr/co/ch02/sub2/Hdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch02/src/main/java/kr/co/ch02/sub2/Ram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch02/src/test/java/kr/co/ch02/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch03/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch03/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch03/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch03/src/main/java/kr/co/ch03/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch03/src/main/java/kr/co/ch03/BasicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch03/src/main/java/kr/co/ch03/LogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch03/src/main/java/kr/co/ch03/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch03/src/test/java/kr/co/ch03/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ch04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/java/kr/co/ch04/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/java/kr/co/ch04/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/java/kr/co/ch04/config/MyWebAppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/java/kr/co/ch04/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/java/kr/co/ch04/controller/User1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/java/kr/co/ch04/controller/User2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/java/kr/co/ch04/dao/User1Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/java/kr/co/ch04/dao/User1RowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/java/kr/co/ch04/dao/User2Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/java/kr/co/ch04/dao/User2RowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/java/kr/co/ch04/dto/User1DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/java/kr/co/ch04/dto/User2DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/java/kr/co/ch04/service/User1Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/java/kr/co/ch04/service/User2Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/webapp/WEB-INF/views/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/webapp/WEB-INF/views/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/webapp/WEB-INF/views/user1/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/webapp/WEB-INF/views/user1/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/webapp/WEB-INF/views/user1/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/webapp/WEB-INF/views/user2/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/webapp/WEB-INF/views/user2/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/webapp/WEB-INF/views/user2/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/webapp/WEB-INF/views/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/java/kr/co/ch05/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/java/kr/co/ch05/controller/User1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/java/kr/co/ch05/dao/User1DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/java/kr/co/ch05/dto/User1DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/java/kr/co/ch05/dto/User2DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/java/kr/co/ch05/mapper/User2Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/java/kr/co/ch05/service/User1Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/resources/mappers/user1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/resources/mappers/user2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/webapp/WEB-INF/views/user2/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/webapp/WEB-INF/views/user2/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/webapp/WEB-INF/views/user2/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch05/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database-9" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database-9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch01/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch01/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch02/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch02/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch04/.indexes/e4/f2/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch04/.indexes/e4/f3/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch04/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch04/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch04/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/Ch04/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/ThisJava/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.resources/.projects/ThisJava/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/173439706.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/173439706.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/1958677263.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/1958677263.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/3811958767.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/3811958767.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.m2e.logback/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.m2e.logback/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Ch02-1/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Ch02-1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Ch02-1/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Ch02-1/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Ch02-1/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Ch02-1/src/sub3/OperatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Ch03-2/src/ForTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Exam/src/test3/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Exam/src/test3/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Exam/src/test3/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Exam/src/test3/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Exam/src/test3/Test03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Exam/src/test3/Test03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Exam/src/test3/Test04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Exam/src/test3/Test04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Exam/src/test3/Test05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Exam/src/test3/Test05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Exam/src/test3/Test06.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Exam/src/test3/Test06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Exam/src/test3/Test07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Exam/src/test3/Test07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Exam/src/test3/Test08.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Exam/src/test3/Test08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/bin/Ch01/sec06/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/bin/Ch01/sec11/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/bin/Ch01/sec12/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/bin/Ch02/sec01/VariableInitializationExaple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/bin/Ch02/sec04/FloatDoubleExamle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/bin/Ch02/sec11/VariableScopeExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/bin/Ch03/sec01/ArithmeticOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/bin/Ch03/sec01/SignOperatorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/bin/Ch05/Sec03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/bin/Ch05/Sec05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/bin/Ch05/Sec06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/bin/Ch05/Sec7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/bin/Ch05/Sec8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/bin/Ch05/Sec9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/src/Ch01/sec06/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/src/Ch01/sec11/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/src/Ch01/sec12/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/src/Ch02/sec01/VariableInitializationExaple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/src/Ch02/sec04/FloatDoubleExamle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/src/Ch02/sec11/VariableScopeExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/src/Ch03/sec01/ArithmeticOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/src/Ch03/sec01/SignOperatorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/src/Ch05/Sec03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/src/Ch05/Sec05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/src/Ch05/Sec06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/src/Ch05/Sec7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/src/Ch05/Sec8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/ThisJava/src/Ch05/Sec9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/a1226/bin/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2dI8qcC7tLe9VIfGGmIrVOblgv2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/java/Desktop/Workspace/Spring/ch04&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32e5e525-7f34-4a63-875f-4686d3984bff" name="Changes" comment="" />
+      <created>1709684423405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709684423405</updated>
+      <workItem from="1709684424401" duration="21000" />
+      <workItem from="1709684832615" duration="15000" />
+      <workItem from="1709684865986" duration="6000" />
+      <workItem from="1709684885909" duration="4000" />
+      <workItem from="1709696322411" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

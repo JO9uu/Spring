@@ -1,0 +1,45 @@
+logging:
+    file:
+        name: log/ch10.log
+    level:
+        jdbc:
+            connection: info
+            resultsettable: info
+            sqlonly: info
+            sqltiming: info
+        root: info
+# JWT 설정
+# - secret Key는 HS256 알고리즘으로 암호화/복호화를 하기 위해 256비트보다 커야됨
+# - 영문자 하나의 알파벳은 8비트(1바이트)이므로 32글자 이상이면 됨
+# - https://randomkeygen.com/
+# - https://acte.ltd/utils/randomkeygen
+jwt:
+    issuer: sardia0923@gmail.com
+    secret: mfQaLash2T85xu1tPgoQPbTi26SRvJd4
+
+server:
+    port: 8080
+    servlet:
+        context-path: /ch10
+spring:
+    application:
+        name: ch10
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        password: 4321
+        url: jdbc:mysql://127.0.0.1:3306/studydb
+        username: jo9
+    devtools:
+        livereload:
+            enabled: true
+
+    jpa:
+        database: mysql
+        hibernate:
+            ddl-auto: update
+            naming:
+                physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+        properties:
+            hibernate:
+                format_sql: true
+                show_sql: true
