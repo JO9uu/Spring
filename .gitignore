@@ -1,0 +1,4 @@
+sboard/build/resources/main/application.yml
+.idea/
+*.log
+-DS_Store
